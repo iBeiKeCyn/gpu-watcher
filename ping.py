@@ -4,6 +4,7 @@ import socket
 import time
 import os
 import yaml
+#nvidia-smi读取包
 import pynvml
 
 with open(os.path.join(os.path.split(__file__)[0], 'config.yaml')) as f:
